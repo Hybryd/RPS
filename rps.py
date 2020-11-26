@@ -14,7 +14,8 @@ env = make("rps", debug=True, configuration={"episodeSteps": 1000 })
 
 #################################
 
-agent1 = utils.read_file("rps_agent_minasi.py")
+
+agent1 = utils.read_file("rps_agent_minasi_killer.py")
 agent2 = utils.read_file("rps_agent_minasi.py")
 
 steps = env.run([agent1, agent2])
